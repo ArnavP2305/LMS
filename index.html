@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo">LMS</div>
+        <ul class="navbar-links">
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="forum.html">Forum</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="navbar-search">
+          <input type="text" placeholder="Search..." />
+        </div>
+        <div class="auth-buttons">
+          <a class="login-btn" href="login.html">Login</a>
+          <a class="register-btn" href="register.html">Register</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-image">
+          <img src="assets/images/hero.svg" alt="Learning Image" />
+        </div>
+        <div class="hero-content">
+          <h1>Learn Anything, Anytime, Anywhere</h1>
+          <p>
+            Join our platform today and start learning from the best courses
+            available.
+          </p>
+          <a class="enroll-btn" href="course.html"> Enroll Now </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses" id="courses">
+      <h2>Our Popular Courses</h2>
+      <div class="course-list">
+        <a href="course.html" class="course-item card">
+          <img src="assets/images/ai.jpg" alt="Course 1" />
+          <h3>Course 1</h3>
+          <p>Artificial Intelligence</p>
+        </a>
+        <a href="course.html" class="course-item card">
+          <img src="assets/images/dsa.jpg" alt="Course 2" />
+          <h3>Course 2</h3>
+          <p>Data Structures and Algorithms</p>
+        </a>
+        <a href="course.html" class="course-item card">
+          <img src="assets/images/web-development.jpg" alt="Course 3" />
+          <h3>Course 3</h3>
+          <p>Web Development</p>
+        </a>
+        <a href="course.html" class="course-item card">
+          <img src="assets/images/ml.jpg" alt="Course 4" />
+          <h3>Course 4</h3>
+          <p>Machine Learning</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2>What Our Students Say</h2>
+      <div class="testimonial-list">
+        <div class="testimonial-item">
+          <img
+            src="assets/images/girl1.webp"
+            alt="KYLIE"
+            class="testimonial-img"
+          />
+          <p>"This platform helped me excel in my studies!"</p>
+          <h4>- KYLIE</h4>
+        </div>
+        <div class="testimonial-item">
+          <img
+            src="assets/images/girl2.jpg"
+            alt="BRIE"
+            class="testimonial-img"
+          />
+          <p>"Great courses and excellent instructors."</p>
+          <h4>- BRIE</h4>
+        </div>
+        <div class="testimonial-item">
+          <img
+            src="assets/images/boy.png"
+            alt="GEORGE"
+            class="testimonial-img"
+          />
+          <p>"I love learning at my own pace, thanks to this platform."</p>
+          <h4>- GEORGE</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="enrollment">
+      <h2>Ready to Get Started?</h2>
+      <button class="enroll-btn">Enroll Now</button>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Ask Us Anything</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 LMS - All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
